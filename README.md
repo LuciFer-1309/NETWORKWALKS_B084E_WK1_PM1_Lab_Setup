@@ -11,7 +11,7 @@ This project focuses on setting up a basic cybersecurity testing lab using Oracl
 - Install Oracle VirtualBox.
 - Set up Kali Linux as the attacking machine.
 - Configure a NAT Network using the `10.0.0.0/24` subnet.
-- Assign the IP address `10.0.0.0/24` to Kali Linux.
+- Assign the IP address `10.0.0.2/24` to Kali Linux.
 - Enable Internet access for the Kali Linux virtual machine.
 - Enable clipboard sharing and drag-and-drop functionality.
 - Configure a shared folder between the host machine and Kali Linux.
