@@ -49,6 +49,7 @@ Download and install Oracle VirtualBox on the host machine.
 ### Step 2: Set Up Kali Linux
 
 Download the Kali Linux virtual machine and import it into VirtualBox. Configure the virtual machine with the required system resources.
+<img width="1920" height="1044" alt="Kali VM Setup" src="https://github.com/user-attachments/assets/c17b41eb-e630-42a9-b36b-40f5b8c51ec7" />
 
 ### Step 3: Configure the NAT Network
 
@@ -59,6 +60,7 @@ Create a NAT Network in VirtualBox with the following configuration:
 - Network Type: NAT Network
 
 Connect the Kali Linux virtual machine to this network.
+<img width="1920" height="1043" alt="Network Settings" src="https://github.com/user-attachments/assets/094e4ddd-e3be-4269-abee-ad097b335dde" />
 
 ### Step 4: Configure the Kali Linux IP Address
 
@@ -68,6 +70,7 @@ Configure the network interface of Kali Linux with the following settings:
 - Subnet Mask: `255.255.255.0`
 - Default Gateway: `10.0.0.1`
 - DNS Server: `8.8.8.8`
+<img width="1920" height="1042" alt="Kali Network Settings" src="https://github.com/user-attachments/assets/7cd24a26-e73b-4bff-a2d0-c79693a57ce3" />
 
 ### Step 5: Enable Shared Features
 
@@ -76,6 +79,7 @@ Configure the VirtualBox settings to enable:
 - Shared Clipboard: Bidirectional
 - Drag and Drop: Bidirectional
 - Shared Folder: `/downloads`
+<img width="1920" height="1044" alt="Shared_Folder" src="https://github.com/user-attachments/assets/9508a816-4990-475b-a5e0-fb73fcda6b64" />
 
 These features help transfer files and text between the host machine and the virtual machine.
 
